@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Crimson Text", serif;
+}
+
+
+
+#home{
+    background-image: url('./images/backgroungimg1');
+    height: 600px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title h1 {
+    color: white;
+    font-size: 80px;
+    
+}
+#title p {
+    color: white;
+    font-size: 70px;
+   
+    font-family: "Sevillana", cursive;
+    
+    
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#navabar{
+    display: flex;
+    width: 85%;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+#logo{
+    width: 130px;
+}
+.listItem{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+}
+.listItem a{
+    color:black;
+    text-decoration: none;
+    font-weight: 800;
+}
+.listItem a:hover{
+    color:darkmagenta;
+}
+#about{
+    margin:13% 8% 0% 8%;
+}
+
+.heading h1{
+    font-size: 50px;
+    text-align: right;
+    text-decoration: underline;
+}
+.heading h2{
+    font-size: 35px;
+    color: rgba(213, 21, 21, 0.822);
+    font-family: "Sevillana", cursive;
+    text-align: center;
+}
+#about-content{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    margin-top: 2rem;
+}
+#aboutImg img{
+    width:81%;
+}
+
+#about-details p{
+    font-size: 21px;
+    text-align: justify;
+    font-family: "Sevillana", cursive;
+}
+.food{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    
+    padding: 8px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px 20px;
+    
+}
+#menu{
+    margin-top: 6rem;
+}
+#menu1 h1{
+    text-align: left;
+    font-family: "Sevillana", cursive;
+    font-size:60px ;
+    margin-left: 100px;
+    color: rgba(213, 21, 21, 0.822);
+
+}
+#menu1 h2{
+    text-align: left;
+    font-size:40px ;
+    text-align: center;
+    text-decoration:underline;
+
+}
+.listmenu{
+    margin-left: 10px;
+}
+#review{
+    margin-top: 4rem;
+}
+.bar-container{
+    display: flex;
+   justify-content: space-between;
+    position: relative;
+    padding: 20px 0px;
+    margin-top:20px;
+}
+
+.base-bar{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.39);
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 0px;
+}
+
+.bar-container span{
+    font-size: 20px;
+    font-weight: 800;
+}
+#excellent-bar{
+    background-color:darkgreen;
+    width: 36%;
+}
+#verygood-bar{
+    background-color:darkgreen;
+    width: 41%;
+}
+#average-bar{
+    background-color:darkgreen ;
+    width: 18%;
+}
+#poor-bar{
+    background-color:darkgreen;
+    width: 2%;
+}
+
+#rev h1{
+    text-align: center;
+    color:darkblue;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#rev span{
+    font-size: 30px;
+    color: brown;
+}
+#icon-set{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+  }
+  #up-arrow{
+      width:50px;
+      height: 50px;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 20px;
+      border-radius: 50%;
+  }
+  #contact{
+    margin-top: 4rem;
+  }
+  #cont h1{
+    text-align: center;
+    font-size: 50px;
+    color:darkslateblue;
+  }
+  
+  footer{
+      padding: 4rem 0;
+  }
+  footer p{
+      text-align: center;
+      font-weight: 800;
+  }
+  #up-arrow{
+      background-image: linear-gradient(to bottom right, rgb(231, 231, 28), rgb(5, 5, 60));
+      float: right;
+  }
+  #up-arrow:hover a{
+      color:white
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  
+  
